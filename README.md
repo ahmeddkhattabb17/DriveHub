@@ -1,137 +1,55 @@
-# DriveHub 🚗
+# DriveHub — Automotive Marketplace Frontend
 
-A modern full-stack car marketplace built to provide a complete experience for buyers and sellers.
+A modern automotive marketplace frontend focused on vehicle discovery, advanced search and filtering, detailed vehicle listings, comparison workflows, favorites, and a streamlined browsing experience.
 
 ## Overview
 
-DriveHub lets users discover vehicles, search and filter listings, compare cars, view detailed vehicle information, contact sellers, and manage their own listings.
+DriveHub is designed as a realistic marketplace interface rather than a simple landing page. The project focuses on data-heavy UI, discovery workflows, comparison patterns, seller-oriented experiences, and responsive interaction design.
 
-The project is designed as a production-style portfolio application, with a real backend, authentication, database persistence, validation, and responsive frontend.
+## Planned Frontend Experience
 
-## Core Features
+- Vehicle discovery and featured listings
+- Advanced search and filtering
+- Vehicle detail pages
+- Image galleries and specifications
+- Compare multiple vehicles
+- Favorites and saved vehicles
+- Seller profile and listing interfaces
+- Add and manage vehicle listings
+- Inquiry and contact flows
+- Responsive dashboard experiences
+- Loading, empty, and error states
 
-### 🏠 Marketplace
-- Featured and latest vehicles
-- Vehicle categories and brands
-- Search by make, model, keyword, or location
-- Advanced filtering
-- Sorting by price, year, mileage, and newest listings
-- Responsive vehicle cards
-- Pagination or infinite scrolling
+## Search & Filtering
 
-### 🔎 Advanced Search & Filters
-- Brand / manufacturer
-- Model
+- Brand and model
 - Price range
-- Year range
-- Mileage
-- Fuel type
-- Transmission
-- Body type
-- Engine / power
-- Condition
-- Location
-- Seller type
-- Multiple filters at once
-- Clear/reset filters
-
-### 🚘 Vehicle Details
-- Large image gallery
-- Vehicle specifications
-- Price and financing information
-- Description
-- Features and equipment
-- Seller information
-- Location
-- Contact seller
-- Similar vehicles
-- Save to favorites
-
-### ⚖️ Compare Vehicles
-- Compare 2–3 vehicles
-- Price
 - Year
 - Mileage
 - Fuel type
 - Transmission
-- Engine
 - Body type
-- Key specifications side by side
+- Engine
+- Condition
+- Location
+- Sorting and filter reset
 
-### ❤️ Favorites
-- Save vehicles
-- Remove saved vehicles
-- Dedicated favorites page
-- Persistent favorites for authenticated users
-
-### 👤 Authentication & Profiles
-- Sign up / sign in
-- Secure sessions
-- User profile
-- Profile editing
-- Buyer and seller roles
-- Account settings
-
-### 🏪 Seller Dashboard
-- Dashboard overview
-- Add vehicle listing
-- Edit listing
-- Delete listing
-- Upload multiple vehicle images
-- Draft listings
-- Publish / unpublish listings
-- Mark vehicle as sold
-- Manage inquiries
-- View listing performance
-
-### 💬 Seller Inquiries
-- Buyer contact requests
-- Inquiry history
-- Inquiry status
-- Seller responses
-- Notifications for new inquiries
-
-### 🔔 Notifications
-- New inquiries
-- Listing status updates
-- Favorites/activity
-- Account notifications
-
-### 🛡️ Backend & Data
-- RESTful/API or server-action architecture
-- Database-backed vehicles, users, favorites, inquiries, and images
-- Server-side validation
-- Authentication and authorization
-- Protected seller routes
-- Pagination
-- Search and filtering
-- Error handling
-
-### ✨ UX
-- Responsive design
-- Loading states
-- Skeleton loaders
-- Empty states
-- Error states
-- Toast notifications
-- Accessible forms
-- Mobile-first interactions
-
-## Planned Stack
+## Technology
 
 - Next.js
 - TypeScript
-- PostgreSQL
-- Prisma or Drizzle ORM
-- Authentication
+- React
 - Tailwind CSS
-- Cloud image storage
-- API routes / Server Actions
+- Responsive Web Design
 
-## Project Goal
+## Project Focus
 
-DriveHub is intended to demonstrate real-world frontend and backend development skills through a complete marketplace product rather than a static UI.
+DriveHub is intended to demonstrate complex search interfaces, reusable listing components, data presentation, responsive layouts, and product-oriented frontend architecture.
 
 ## Status
 
-🚧 In development
+**Frontend — In Development**
+
+## Author
+
+**Ahmed Khattab** — Front-End Web Developer
